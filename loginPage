@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>SF Day of Civic Hacking challenge - FBAMG</title>
+
+<script src="backend.js"></script>
+<link rel="stylesheet" href="styles.css"/>
+
+</head>
+
+<body>
+
+<div id="wrap">
+	
+    <div id="loginBox" style="font-family:'Trebuchet MS', Arial, Helvetica, sans-serif;font-size:22px;">
+    	<center>TBD-Name Login</center>
+    	<div style="top:50px;margin-left:auto;margin-right:auto;position:relative;width:200px;">
+    		<form method="post" action="" onsubmit="CheckLogin();return false;" name="login">
+				Username: <input type="text" name="username" style="width:200px;"/><br><br>
+                Password: <input type="text" name="password" style="width:200px;"/><br><br>
+            	<input type="submit" value="Login" onclick="CheckLogin();return false;" style="width:100px;height:75px;"/>
+        	</form>
+        </div>
+    </div>
+    
+</div>
+
+
+
+
+</body>
+</html>
