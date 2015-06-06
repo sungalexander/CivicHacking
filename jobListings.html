@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>jobsListings</title>
+
+<script src="backend-Listings.js"></script>
+<link rel="stylesheet" href="styles.css"/>
+
+</head>
+
+<body>
+<div id="wrap">
+	<div id="header">
+    	<div style="position: relative; top: 75px; left: 100px; font-size: 36px; font-family: Arial, Helvetica, sans-serif;">
+    		Welcome, User!
+        </div>
+  </div>
+    <table>
+    <tr>
+    	<td id="sidebar">
+        	<button type="button" id="profile" class="sideBarButtons" onclick="changeToProfile()">View Profile</button>
+      		<button type="button" id="search" class="sideBarButtons" onclick="changeToSearch()">Search for Jobs</button>
+            <button type="button" id="listings" class="sideBarButtons" onclick="changeToListing()">See avaliable Positions</button>
+    	</td>
+    	<td id="centerContents">
+			<div style="font-size:24px;">
+            	Currently Open Positions:
+            </div>
+            <div id="positionTables">
+            	<table border="1" style="padding:10px;width:100%">
+                	<tr>
+                    	<th>Job</th>
+                        <th>Description</th>
+                        <th>Start Date</th>
+                    </tr>
+                    <tr>
+                    	<th>Example Job 1</th>
+                        <th>Example Description 1</th>
+                        <th>DD/MM/YYYY</th>
+                    </tr>
+                    <tr>
+                    	<th>Example Job 2</th>
+                        <th>Example Description 2</th>
+                        <th>DD/MM/YYYY</th>
+                    </tr>
+                    <tr>
+                    	<th>Example Job 3</th>
+                        <th>Example Description 3</th>
+                        <th>DD/MM/YYYY</th>
+                    </tr>
+            <div>
+    	</td>
+    </tr>
+  	</table>
+</div>
+
+
+</body>
+</html>
